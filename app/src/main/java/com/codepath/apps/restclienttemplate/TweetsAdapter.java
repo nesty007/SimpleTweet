@@ -15,7 +15,7 @@ import com.codepath.apps.restclienttemplate.models.Tweet;
 
 import java.util.List;
 
-public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.Viewholder> {
+public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder> {
 
     private Context context;
     private List<Tweet> tweets;
