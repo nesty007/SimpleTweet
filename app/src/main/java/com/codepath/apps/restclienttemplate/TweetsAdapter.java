@@ -49,13 +49,13 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
     }
 
     //define the view holder
-    public class Viewholder extends ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         public ImageView ivProfileImage;
         public TextView tvScreenName;
         public TextView tvBody;
 
-        public Viewholder(View itemView) {
+        public ViewHolder(View itemView) {
             super(itemView);
             ivProfileImage = itemView.findViewById(R.id.ivProfileImage);
             tvScreenName = itemView.findViewById(R.id.tvScreenName);
