@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="3dp"
-    android:background="#7EA7E7F0">
+    android:layout_margin="1dp">
 
     <ImageView
         android:id="@+id/ivProfileImage"
